@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{background: rgb(181,141,141);
+    background: linear-gradient(90deg, rgba(181,141,141,1) 1%, rgba(181,141,141,1) 51%, rgba(182,114,114,1) 100%, rgba(13,57,66,1) 100%);
+} */
+/* 
+body{
+    background: rgb(36,124,87);
+background: linear-gradient(90deg, rgba(36,124,87,1) 1%, rgba(36,124,87,1) 53%, rgba(113,195,143,1) 100%);
+} */
+
+/* body{background: rgb(53,145,107);
+    background: linear-gradient(90deg, rgba(53,145,107,1) 1%, rgba(36,124,87,1) 53%, rgba(87,169,117,1) 100%);
+} */
+
+/* body{
+    background: rgb(60,104,86);
+    background: linear-gradient(90deg, rgba(60,104,86,1) 1%, rgba(23,39,33,1) 53%, rgba(75,83,78,1) 100%);
+} */
+
+body{
+    background-color: black;
+}

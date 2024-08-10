@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.intp{
+    color: antiquewhite;
+    font-size: 4vw;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secp{
+    color: antiquewhite;
+    font-size: 2vw;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+video{
+    margin: 100px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #222; /* Darker background */
+    margin-top: 50px; /* Added margin-top for spacing */
+  }
+  
+  .left-side, .right-side {
+    flex-basis: 45%;
+    color: #fff; /* Light text color */
+    padding: 20px; /* Added padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Added box shadow for depth */
+  }
+  
+  .left-side h2, .right-side h2 {
+    font-size: 28px; /* Increased text size */
+    margin-bottom: 20px;
+  }
+  
+  .left-side p, .right-side p {
+    font-size: 18px; /* Increased text size */
+    line-height: 1.6;
+  }
+  
+  .left-side {
+    background-color: #444; /* Darker background for left side */
+  }
+  
+  .right-side {
+    background-color: #333; /* Slightly lighter background for right side */
+  }
+  
+  /* Animation */
+  .main-section {
+    animation: slideIn 1s ease forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .element {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .element.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  
+.go{
+    font-size: 3.5vw;
+    font-weight: 300;
+}
+
+.go-button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .go-button:hover {
+    background-color: #357bd8;
+  }
+
+  .cont{
+    font-size: 4vw;
+  }
+
+  .cnt{
+    font-size: 2vw;
+  }

@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.mnc{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+mnc{
+    background: rgb(236,233,194);
+    background: linear-gradient(90deg, rgba(236,233,194,1) 1%, rgba(217,110,110,1) 51%, rgba(134,54,54,1) 100%, rgba(13,57,66,1) 100%);
+    font-family: 'Poppins', sans-serif;
+    }
+
+    .logo-text {
+      font-family: 'Montserrat', sans-serif; /* Use the Montserrat font */
+      font-size: 32px; /* Adjust the font size */
+      font-weight: bold; /* Make the font bold */
+      color: #fff; /* Set the text color to white */
+      text-transform: uppercase; /* Convert text to uppercase */
+      letter-spacing: 2px; /* Add letter spacing */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Add a subtle text shadow */
+    }
+    
+    /* Add a subtle hover effect */
+    .logo-text:hover {
+      color: #3498db; /* Change the color on hover */
+      transform: scale(1.05); /* Scale the text slightly on hover */
+    }
+    
+/* Header animation */
+/* .intel, .go, .inteli, .menu {
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+
+
+.logo-text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* styles.css */
+/* styles.css */
+.go-button {
+  background-color: #1a1a1a; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 12px 24px; /* Padding for the button */
+  border: none; /* Remove button border */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 18px; /* Font size */
+  font-weight: bold; /* Bold font weight */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.go-button:hover {
+  background-color: #333; /* Darker background color on hover */
+}
+
+/* Additional styles for emphasis */
+.go-button::before {
+  content: "🚀"; /* Rocket emoji */
+  margin-right: 8px; /* Space between icon and text */
+}
+
+
+.contact-button {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.contact-button:hover {
+  color: #CCCCCC;
+}
+.menu-toggle {
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-icon {
+  color: #fff; /* White color */
+  font-size: 24px; /* Adjust size as needed */
+  transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.menu-toggle:hover .menu-icon {
+  transform: rotate(90deg); /* Rotate on hover */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px; /* Adjust as needed */
+  right: 0;
+  display: none;
+}
+
+.dropdown-menu.show {
+  display: block; /* Show menu when 'show' class is applied */
+}
+
+.menu-content {
+  background-color: #333; /* Dark background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+}
+
+.menu-item {
+  padding: 12px 24px; /* Padding for menu items */
+}
+
+.menu-link {
+  color: #fff; /* Text color */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: block;
+}
+
+.menu-link:hover {
+  background-color: #555; /* Lighter background color on hover */
+}
+
+.bhrt {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  cursor: pointer;
+  position: relative; /* Add position relative */
+}
+
+.bhrt::before,
+.bhrt::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+
+.bhrt::before {
+  top: 0;
+}
+
+.bhrt::after {
+  bottom: 0;
+}
+
+.bhrt:hover {
+  color: #CCCCCC;
+}
+
+.cont{
+  font-size: 5vw;
+}
+
+  .container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .inte{
+    font-size: 15vw;
+    color: #fff;
+  }
+
+  .und{
+    margin-left: 160px;
+    width:80%;
+    height: 2px;
+    background-color: white;
+  }
+  
+  .btm-foot{
+    font-size: 1vw;
+  }
+
+  
+  
